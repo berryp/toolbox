@@ -1,3 +1,20 @@
+/*
+	Statically serve file tree from the current directory.
+
+	Installation:
+
+	1. $ go build serve.go
+	2. Put the file in a directory in your $PATH.
+
+	Usage:
+
+	$ serve [flags]
+
+	Flags:
+
+	-port: The port to run the web server on. Default: 5000.
+*/
+
 package main
 
 import (
